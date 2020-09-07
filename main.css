@@ -1,0 +1,35 @@
+.fi{
+    background:linear-gradient(to bottom, #343a40 50%, #f8f8ff 50%) ;
+}
+.bdy{
+    background-color: #f8f8ff !important;
+}
+.cat{
+    display: block;
+    text-align: center !important;
+}
+.cat1{
+    font-size: 50px;
+    display: block;
+    text-align: center !important;
+}
+.ft{
+    background-color: #343a40;
+    color: white;
+    }
+    .ft a:link{
+        color: white;
+    }
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    .cat1{
+        font-size: large;
+    } 
+    .fi2{
+      width: 100% !important;
+    }
+  }
+
